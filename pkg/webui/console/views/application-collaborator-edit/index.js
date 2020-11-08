@@ -51,7 +51,7 @@ import {
 const isUser = collaborator => collaborator.ids && 'user_ids' in collaborator.ids
 
 @connect(
-  function(state, props) {
+  (state, props) => {
     const appId = selectSelectedApplicationId(state)
 
     const { collaboratorId, collaboratorType } = props.match.params
