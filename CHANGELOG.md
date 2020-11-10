@@ -22,6 +22,7 @@ For details about compatibility between different releases, see the **Commitment
 ### Fixed
 
 - Next button title in the end device wizard in the Console.
+- Status display on the error view in the Console.
 
 ### Security
 
